@@ -8,7 +8,6 @@ import {MediaService} from './services/media.service';
 import {HttpClientModule} from '@angular/common/http';
 import {DigitransitService} from './services/digitransit.service';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,3 +20,12 @@ import {DigitransitService} from './services/digitransit.service';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+/**
+ * 注意检查cli-json中的这个,是是否存在第二行的代码
+ * "styles": [
+        "styles.scss",
+        "../node_modules/bootstrap/dist/css/bootstrap.css"
+      ],
+ */
